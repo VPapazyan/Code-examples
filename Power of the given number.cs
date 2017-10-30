@@ -15,6 +15,7 @@ namespace Power_of_the_given_number
             {
                 result *= a;
             }
+            
             Console.WriteLine($"The result is {result}");
             Console.ReadKey();
         }
