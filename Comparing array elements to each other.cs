@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Compare
 {
@@ -17,13 +14,13 @@ namespace Compare
                 for (int j = i+1; j < array.Length-i; j++)
                 {
                     if(array[i] == array[j])
-                    {
-                        
+                    {                     
                         Console.WriteLine($"array[{i}] and array[{j}] are identical");
                         break;
                     }
                 }
             }
+            
             Console.ReadLine();
         }
     }
