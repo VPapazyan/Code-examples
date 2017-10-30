@@ -7,7 +7,7 @@ namespace Factorial
     {
         static void Main(string[] args)
         {
-            // Factorial of a given number
+            // The factorial of a given number
             int num = int.Parse(Console.ReadLine());
                        
             Console.WriteLine($"The result is {Factorial(num)}");
